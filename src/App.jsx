@@ -4,6 +4,7 @@ import Footer from './components/Footer.jsx'
 import Home from './Pages/Home.jsx'
 import Analytics from './Pages/Analytics.jsx'
 import NewsLetter from './Pages/NewsLetter.jsx'
+import Cards from './Pages/Cards.jsx'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Home />
       <Analytics />
       <NewsLetter />
+      <Cards />
     </main>
 
       <footer className=''>
