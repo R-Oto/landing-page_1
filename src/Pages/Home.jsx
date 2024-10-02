@@ -16,7 +16,7 @@ const Home = () => {
             <p className="text-xs md:text-base font-bold text-gray-500 md:pl-4">
                 Monitor your data analytics to increase your revenue
             </p>
-            <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-2 text-black'>
+            <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-2 text-black hover:bg-[#ff09da] duration-500 hover:text-white'>
                 Get Started
             </button>
         </div>
