@@ -3,6 +3,7 @@ import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx'
 import Home from './Pages/Home.jsx'
 import Analytics from './Pages/Analytics.jsx'
+import NewsLetter from './Pages/NewsLetter.jsx'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
     <main className=''>
       <Home />
       <Analytics />
+      <NewsLetter />
     </main>
 
       <footer className=''>
