@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx'
+import Home from './Pages/Home.jsx'
+import Analytics from './Pages/Analytics.jsx'
 
 const App = () => {
   return (
@@ -9,11 +11,12 @@ const App = () => {
         <Navbar />
       </header>
 
-    <main>
-      
+    <main className=''>
+      <Home />
+      <Analytics />
     </main>
 
-      <footer>
+      <footer className=''>
         <Footer />
       </footer>
     </div>
